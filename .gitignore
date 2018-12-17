@@ -23,3 +23,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Ignore files with extension `.class` & `.sm`
+*.class
+*.sm
