@@ -2,11 +2,13 @@ package com.ritzsoft.oasis.model;
 
 import java.sql.Date;
 
+import javax.persistence.Entity;
 import javax.persistence.MappedSuperclass;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-@MappedSuperclass
+
+@Entity
 public class Application extends BaseEntity {
 
 	@NotEmpty
